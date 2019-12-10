@@ -12,7 +12,7 @@ namespace savarankiskas2
         private double sk1;
         private double sk2;
 
-        public void Skaiciai()
+        public void InicijuotiPradiniusDuomenis()
         {
             sk1 = 24;
             sk2 = 5;
@@ -21,7 +21,7 @@ namespace savarankiskas2
         {
             return sk1 / sk2;
         }
-        public void Isvestis()
+        public void Isvesti()
         {
             Console.WriteLine("sk1: {0}", sk1);
             Console.WriteLine("sk2: {0}", sk2);
@@ -33,8 +33,8 @@ namespace savarankiskas2
         static void Main(string[] args)
             {
                 Matematika m = new Matematika();
-                m.Skaiciai();
-                m.Isvestis();
+                m.InicijuotiPradiniusDuomenis();
+                m.Isvesti();
                 Console.ReadLine();
             } 
             
