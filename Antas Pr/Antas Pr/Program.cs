@@ -9,10 +9,10 @@ namespace Antas_Pr
     class Rectangle
     {
         //member variables
-        private double length;
+        private double length; //double - skaiciai su kableliu, private - nematoma reiksme.
         private double width;
 
-        public void Acceptdetails()
+        public void Acceptdetails() //void negrazina reiksmiu
         {
             length = 4.5;
             width = 3.5;
