@@ -10,6 +10,16 @@ namespace Trecias
     {
         static void Main(string[] args)
         {
+            string vardas = "";
+            while (vardas != "stop")
+            {
+                Console.WriteLine("iveskite savo varda:");
+                vardas = Console.ReadLine();
+                Console.WriteLine("Sveiki {0} [ENTER - testi]", vardas);
+            }
+            Console.Clear();
+            Console.WriteLine("Ate...");
+            Console.ReadLine();
         }
     }
 }
