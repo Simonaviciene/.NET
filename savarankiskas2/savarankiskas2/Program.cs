@@ -12,6 +12,7 @@ namespace savarankiskas2
         private double sk1;
         private double sk2;
 
+
         public void InicijuotiPradiniusDuomenis()
         {
             sk1 = 24;
