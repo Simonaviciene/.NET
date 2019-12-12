@@ -41,12 +41,21 @@ namespace _5
     {
         static void Main(double[] args)
         {
+                double x = ;
+                double y = ;
+                {
+                    Console.WriteLine("Iveskite du skaicius:");
+                    x = Console.ReadLine();
+                    y = Console.ReadLine();
+
+                }
+
                 Veiksmai v = new Veiksmai();
                 v.Display();
                 Console.ReadLine();
 
 
-
+                
         }
     }
 
