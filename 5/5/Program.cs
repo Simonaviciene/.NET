@@ -41,17 +41,18 @@ namespace _5
     {
         static void Main(double[] args)
         {
-                double x = ;
-                double y = ;
-                {
-                    Console.WriteLine("Iveskite du skaicius:");
-                    x = Console.ReadLine();
-                    y = Console.ReadLine();
+                Console.WriteLine("Iveskite skaiciu: ");
+                double x = Console.ReadLine();
+                Console.WriteLine("Iveskite antra skaiciu: ");
+                double y = Console.ReadLine();
+                Console.WriteLine("Sandauga = {0}", Sandauga());
+                Console.WriteLine("Dalyba = {0}", Dalyba());
+                Console.WriteLine("Suma = {0}", Suma());
+                Console.WriteLine("Skirtumas = {0}", Skirtumas());
 
-                }
+            }
 
-                Veiksmai v = new Veiksmai();
-                v.Display();
+               
                 Console.ReadLine();
 
 
